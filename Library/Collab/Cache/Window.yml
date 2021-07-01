@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Scripts/playerMovement.cs
+    - Assets/Scripts/playerMovement.cs.meta
+    - Assets/Sprite/background.png.meta
+    - Assets/unity-pedestrian-sim.meta
+    - Assets/unity-pedestrian-sim/CrowdGen.meta
+    - Assets/unity-pedestrian-sim/CrowdGen/PedestrianCrowdGen.cs
+    - Assets/unity-pedestrian-sim/CrowdGen/PedestrianCrowdGen.cs.meta
+    - Assets/unity-pedestrian-sim/CrowdGen/PedestrianCrowdPath.cs
+    - Assets/unity-pedestrian-sim/CrowdGen/PedestrianCrowdPath.cs.meta
+    - Assets/unity-pedestrian-sim/CrowdGen/PedestrianDest.cs
+    - Assets/unity-pedestrian-sim/CrowdGen/PedestrianDest.cs.meta
+    - Assets/unity-pedestrian-sim/CrowdGen/PedestrianEnd.cs
+    - Assets/unity-pedestrian-sim/CrowdGen/PedestrianEnd.cs.meta
+    - Assets/unity-pedestrian-sim/CrowdGen/PedestrianPath.cs
+    - Assets/unity-pedestrian-sim/CrowdGen/PedestrianPath.cs.meta
+    - Assets/unity-pedestrian-sim/LICENSE
+    - Assets/unity-pedestrian-sim/LICENSE.meta
+    - Assets/unity-pedestrian-sim/Prefabs.meta
+    - Assets/unity-pedestrian-sim/Prefabs/DestNode.prefab
+    - Assets/unity-pedestrian-sim/Prefabs/DestNode.prefab.meta
+    - Assets/unity-pedestrian-sim/Prefabs/EndPos.prefab
+    - Assets/unity-pedestrian-sim/Prefabs/EndPos.prefab.meta
+    - Assets/unity-pedestrian-sim/Prefabs/Material.meta
+    - Assets/unity-pedestrian-sim/Prefabs/Material/End.mat
+    - Assets/unity-pedestrian-sim/Prefabs/Material/End.mat.meta
+    - Assets/unity-pedestrian-sim/Prefabs/Material/Node.mat
+    - Assets/unity-pedestrian-sim/Prefabs/Material/Node.mat.meta
+    - Assets/unity-pedestrian-sim/Prefabs/Material/Start.mat
+    - Assets/unity-pedestrian-sim/Prefabs/Material/Start.mat.meta
+    - Assets/unity-pedestrian-sim/Prefabs/Material/Wall.mat
+    - Assets/unity-pedestrian-sim/Prefabs/Material/Wall.mat.meta
+    - Assets/unity-pedestrian-sim/Prefabs/PedestrianPath.prefab
+    - Assets/unity-pedestrian-sim/Prefabs/PedestrianPath.prefab.meta
+    - Assets/unity-pedestrian-sim/Prefabs/SFCharacter.prefab
+    - Assets/unity-pedestrian-sim/Prefabs/SFCharacter.prefab.meta
+    - Assets/unity-pedestrian-sim/Prefabs/StartPos.prefab
+    - Assets/unity-pedestrian-sim/Prefabs/StartPos.prefab.meta
+    - Assets/unity-pedestrian-sim/Prefabs/Wall.prefab
+    - Assets/unity-pedestrian-sim/Prefabs/Wall.prefab.meta
+    - Assets/unity-pedestrian-sim/README.md
+    - Assets/unity-pedestrian-sim/README.md.meta
+    - Assets/unity-pedestrian-sim/Scenes.meta
+    - Assets/unity-pedestrian-sim/Scenes/Example.meta
+    - Assets/unity-pedestrian-sim/Scenes/Example.unity
+    - Assets/unity-pedestrian-sim/Scenes/Example.unity.meta
+    - Assets/unity-pedestrian-sim/Scenes/Example/NavMesh.asset
+    - Assets/unity-pedestrian-sim/Scenes/Example/NavMesh.asset.meta
+    - Assets/unity-pedestrian-sim/Scenes/Materials.meta
+    - Assets/unity-pedestrian-sim/Scenes/Materials/2107-normal.jpg
+    - Assets/unity-pedestrian-sim/Scenes/Materials/2107-normal.jpg.meta
+    - Assets/unity-pedestrian-sim/Scenes/Materials/Ground.mat
+    - Assets/unity-pedestrian-sim/Scenes/Materials/Ground.mat.meta
+    - Assets/unity-pedestrian-sim/Scenes/Materials/InterSectionMap 1.jpg
+    - Assets/unity-pedestrian-sim/Scenes/Materials/InterSectionMap 1.jpg.meta
+    - Assets/unity-pedestrian-sim/Scenes/Materials/InterSectionMap.mat
+    - Assets/unity-pedestrian-sim/Scenes/Materials/InterSectionMap.mat.meta
+    - Assets/unity-pedestrian-sim/SocialForceModel.meta
+    - Assets/unity-pedestrian-sim/SocialForceModel/SFCharacter.cs
+    - Assets/unity-pedestrian-sim/SocialForceModel/SFCharacter.cs.meta
+    - Assets/unity-pedestrian-sim/SocialForceModel/Wall.cs
+    - Assets/unity-pedestrian-sim/SocialForceModel/Wall.cs.meta
+    - Assets/unity-pedestrian-sim/Standard Assets.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidCrouch.fbx
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidCrouch.fbx.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdle.fbx
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdle.fbx.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdleJumpUp.fbx
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdleJumpUp.fbx.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidJumpAndFall.fbx
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidJumpAndFall.fbx.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidMidAir.fbx
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidMidAir.fbx.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRun.fbx
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRun.fbx.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurn.fbx
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurn.fbx.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurnSharp.fbx
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurnSharp.fbx.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidStandTurn.fbx
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidStandTurn.fbx.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalk.fbx
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalk.fbx.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurn.fbx
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurn.fbx.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurnSharp.fbx
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurnSharp.fbx.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animator.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animator/ThirdPersonAnimatorController.controller
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Animator/ThirdPersonAnimatorController.controller.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Materials.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey.mat
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey.mat.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanWhite.mat
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanWhite.mat.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Models.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Prefabs.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Scripts.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Textures.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanNormals.png
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanNormals.png.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanOcclusion.png
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanOcclusion.png.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/ThirdPersonCharacterGuidelines.txt
+    - Assets/unity-pedestrian-sim/Standard Assets/Characters/ThirdPersonCharacter/ThirdPersonCharacterGuidelines.txt.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Prefabs.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png.meta
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png
+    - Assets/unity-pedestrian-sim/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
