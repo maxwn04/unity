@@ -1,0 +1,4 @@
+repository "FinalGameProject@iAmWeird@cloud"
+  path "/"
+    br "/main"
+    co "/main"
